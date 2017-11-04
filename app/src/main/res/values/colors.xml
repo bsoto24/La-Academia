@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/rojo_ipd</color>
+    <color name="colorPrimaryDark">@color/rojo_oscuro_ipd</color>
+    <color name="colorAccent">@color/gris_ipd</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="rojo_ipd">#CB3F1D</color>
+    <color name="rojo_oscuro_ipd">#ac2d0f</color>
+    <color name="gris_ipd">#6F6F6E</color>
+    <color name="turquesa_ipd">#00A09A</color>
+    <color name="amarillo_ipd">#FBC900</color>
+    <color name="naranja_ipd">#EB4E1B</color>
+    <color name="verde_ipd">#95C11E</color>
+    <color name="morado_ipd">#711481</color>
+    <color name="primaryText">#424242</color>
+    <color name="primaryTextLight">#757575</color>
+</resources>
