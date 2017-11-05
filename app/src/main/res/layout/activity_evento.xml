@@ -178,7 +178,7 @@
                     android:layout_marginRight="30dp"
                     android:backgroundTint="@color/colorPrimary"
                     android:padding="20dp"
-                    android:text="Incribete"
+                    android:text="Inscríbete"
                     android:textColor="@color/blanco"
                     android:textSize="16sp" />
 
@@ -187,7 +187,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="20dp"
-                    android:backgroundTint="@color/colorPrimary"
+                    app:backgroundTint="@color/colorPrimary"
                     android:src="@drawable/ic_compartir"
                     android:text="Reportar"
                     app:fabSize="normal" />
