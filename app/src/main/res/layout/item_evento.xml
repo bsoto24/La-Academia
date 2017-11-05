@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_evento"
     android:layout_width="match_parent"
     android:layout_height="280dp"
     android:layout_margin="10dp"
@@ -14,12 +15,12 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/img_torneo"
+            android:id="@+id/img_evento"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1.5"
             android:scaleType="centerCrop"
-            android:src="@drawable/ipd_noticia" />
+            android:src="@drawable/natacion" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -34,9 +35,61 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:gravity="center_vertical"
-                android:text="Torneo Relámpago de Fulbito - MML"
+                android:text="Curso de natación niños"
                 android:textColor="@color/primaryText"
                 android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/ic_deportes" />
+
+                    <TextView
+                        android:id="@+id/tv_deporte"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="Natación"
+                        android:textColor="@color/primaryText"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/ic_eventos" />
+
+                    <TextView
+                        android:id="@+id/tv_fecha"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="Nobiembre 09"
+                        android:textColor="@color/primaryText"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -48,48 +101,15 @@
                     android:layout_width="25dp"
                     android:layout_height="match_parent"
                     android:layout_marginRight="10dp"
-                    android:src="@drawable/ic_deportes" />
+                    android:src="@drawable/ic_centro_deportivo" />
 
                 <TextView
-                    android:id="@+id/tv_deporte"
+                    android:id="@+id/tv_lugar"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center_vertical"
-                    android:text="Futbol"
-                    android:textColor="@color/primaryText"
-                    android:textSize="16sp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1">
-
-
-                <ImageView
-                    android:layout_width="25dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginRight="10dp"
-                    android:src="@drawable/ic_eventos" />
-
-                <TextView
-                    android:id="@+id/tv_fecha"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center_vertical"
-                    android:text="20 Sep"
-                    android:textColor="@color/primaryText"
-                    android:textSize="16sp" />
-
-                <TextView
-                    android:id="@+id/tv_hora"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center_vertical"
-                    android:text="Sábado 10:00 AM"
+                    android:text="Estadio Nacional puerta Nº 8"
                     android:textColor="@color/primaryText"
                     android:textSize="16sp" />
             </LinearLayout>

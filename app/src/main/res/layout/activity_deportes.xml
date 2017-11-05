@@ -9,31 +9,35 @@
 
     <include layout="@layout/toolbar" />
 
-    <EditText
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_margin="10dp"
-        android:hint="Busca tu deporte favorito"
-        android:textSize="18sp" />
+        android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="Quieres saber más de algún deporte, descúbrelo aquí"
+            android:textColor="@color/primaryText"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
-        <include layout="@layout/item_deporte" />
+        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:id="@+id/spn_deporte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            app:hintText="Busca un deporte" />
 
-        <include layout="@layout/item_deporte" />
-    </LinearLayout>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_deportes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <include layout="@layout/item_deporte" />
-
-        <include layout="@layout/item_deporte" />
     </LinearLayout>
 
 </LinearLayout>

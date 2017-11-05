@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity
                 flag = true;
                 break;
             case R.id.nav_complejos_deportivos:
-                intent = new Intent(MainActivity.this, DeportesActivity.class);
+                intent = new Intent(MainActivity.this, MapsActivity.class);
                 flag = true;
                 break;
             case R.id.nav_config:
