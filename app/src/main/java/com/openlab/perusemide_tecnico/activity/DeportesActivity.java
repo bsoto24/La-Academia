@@ -3,16 +3,13 @@ package com.openlab.perusemide_tecnico.activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.widget.ArrayAdapter;
 
 import com.openlab.perusemide_tecnico.R;
 import com.openlab.perusemide_tecnico.adapter.DeporteAdapter;
-import com.openlab.perusemide_tecnico.adapter.EventoAdapter;
 import com.openlab.perusemide_tecnico.entity.Deporte;
-import com.openlab.perusemide_tecnico.entity.Evento;
 import com.toptoche.searchablespinnerlibrary.SearchableSpinner;
 
 import java.util.ArrayList;
@@ -67,7 +64,7 @@ public class DeportesActivity extends AppCompatActivity {
         deportes.add(new Deporte("Judo", "", R.drawable.judo));
         deportes.add(new Deporte("Karate", "", R.drawable.karate));
         deportes.add(new Deporte("Natación", "", R.drawable.natacion));
-        deportes.add(new Deporte("Atletismo", "", R.drawable.ipd_noticia));
+        deportes.add(new Deporte("Atletismo", "", R.drawable.noti1));
         deportes.add(new Deporte("badminton", "", R.drawable.badminton));
         deportes.add(new Deporte("Tenis", "", R.drawable.tenis));
         deportes.add(new Deporte("Boxeo", "", R.drawable.boxeo));

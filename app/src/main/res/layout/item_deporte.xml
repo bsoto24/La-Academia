@@ -20,7 +20,7 @@
             android:layout_height="0dp"
             android:layout_weight="4"
             android:scaleType="centerCrop"
-            android:src="@drawable/ipd_noticia" />
+            android:src="@drawable/noti1" />
 
         <TextView
             android:id="@+id/tv_titulo"

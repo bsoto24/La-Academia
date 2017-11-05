@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="img_slide">
+        <item>@drawable/noti1</item>
+        <item>@drawable/noti2</item>
+        <item>@drawable/noti1</item>
+        <item>@drawable/noti2</item>
+    </array>
+
+    <string-array name="tittle_slide">
+        <item>@string/tit1</item>
+        <item>@string/tit2</item>
+        <item>@string/tit1</item>
+        <item>@string/tit2</item>
+    </string-array>
+</resources>

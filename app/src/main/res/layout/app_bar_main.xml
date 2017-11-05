@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
-            android:src="@drawable/ipd_noticia" />
+            android:src="@drawable/noti1" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -40,7 +40,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ººº"
+                android:text="oooo"
                 android:textColor="@color/blanco"
                 android:textSize="14sp" />
 

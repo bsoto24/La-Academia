@@ -13,4 +13,7 @@
     <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id turpis tempor, rutrum est nec, feugiat nisl. Sed in placerat felis. Mauris ac sem ligula. Nulla facilisi. Vestibulum maximus placerat odio quis sodales. Fusce ac sodales eros. Quisque justo libero, sodales semper porttitor non, suscipit id ipsum. In vestibulum nunc sed velit condimentum blandit. Cras malesuada, dolor sed maximus mollis, purus elit sodales odio, id fringilla orci neque sit amet lacus. Nam non magna eu ipsum facilisis dictum. Fusce arcu tellus, eleifend ac tristique vitae, laoreet at diam. Integer at nisi tortor. Suspendisse venenatis ut tortor at semper. Phasellus tristique vehicula sagittis. Proin ac elit at justo rhoncus pharetra. Aenean ultricies magna eu mauris luctus dictum.</string>
     <string name="title_activity_maps">Map</string>
     <string name="documento">Número de DNI</string>
+
+    <string name="tit1">Se apertura circuito deportivo en Tacna</string>
+    <string name="tit2">Hackathon ONPE - IPD</string>
 </resources>

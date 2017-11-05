@@ -56,7 +56,8 @@
                         android:hint="Nombres"
                         android:imeOptions="actionNext"
                         android:inputType="text"
-                        android:maxLines="1" />
+                        android:maxLines="1"
+                        android:text="Rodolfo" />
 
                 </android.support.design.widget.TextInputLayout>
 
@@ -71,7 +72,8 @@
                         android:hint="Apellidos"
                         android:imeOptions="actionNext"
                         android:inputType="text"
-                        android:maxLines="1" />
+                        android:maxLines="1"
+                        android:text="Soto Alvarado" />
 
                 </android.support.design.widget.TextInputLayout>
 
@@ -86,7 +88,8 @@
                         android:hint="Número de DNI"
                         android:imeOptions="actionNext"
                         android:inputType="number"
-                        android:maxLines="1" />
+                        android:maxLines="1"
+                        android:text="77700021" />
 
                 </android.support.design.widget.TextInputLayout>
 
@@ -101,7 +104,8 @@
                         android:hint="Correo"
                         android:imeOptions="actionDone"
                         android:inputType="textEmailAddress"
-                        android:maxLines="1" />
+                        android:maxLines="1"
+                        android:text="rosofe@gmail.com" />
                 </android.support.design.widget.TextInputLayout>
 
 
@@ -116,7 +120,8 @@
                         android:hint="Teléfono"
                         android:imeOptions="actionDone"
                         android:inputType="number"
-                        android:maxLines="1" />
+                        android:maxLines="1"
+                        android:text="999080821" />
                 </android.support.design.widget.TextInputLayout>
 
 
@@ -130,8 +135,9 @@
                         android:layout_height="wrap_content"
                         android:hint="Estado civil"
                         android:imeOptions="actionNext"
-                        android:inputType="date"
-                        android:maxLines="1" />
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:text="Casado" />
 
                 </android.support.design.widget.TextInputLayout>
 
@@ -146,7 +152,8 @@
                         android:hint="Sexo"
                         android:imeOptions="actionNext"
                         android:inputType="text"
-                        android:maxLines="1" />
+                        android:maxLines="1"
+                        android:text="Masculino" />
 
                 </android.support.design.widget.TextInputLayout>
 
@@ -162,6 +169,7 @@
                         android:imeOptions="actionNext"
                         android:inputType="textEmailAddress"
                         android:maxLines="1"
+                        android:text="Ingeniero de sistemas"
                         android:theme="@style/EditTextWhite" />
 
                 </android.support.design.widget.TextInputLayout>
@@ -180,7 +188,8 @@
                         android:hint="Contraseña"
                         android:imeOptions="actionDone"
                         android:inputType="textPassword"
-                        android:maxLines="1" />
+                        android:maxLines="1"
+                        android:text="12332143" />
                 </android.support.design.widget.TextInputLayout>
 
                 <Button
